@@ -1,0 +1,111 @@
+:root {
+    --height0: #121212;
+    --height1: #1b1b1b;
+    --height2: #242424;
+    --height3: #2d2d2d;
+    --height4: #363636;
+    --primary: #003057;
+    --secondary: #857437;
+    --secondary-bright: #e2b900;
+    --error: #d45252;
+
+    --selector-font: 'Courier New', monospace;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--height0);
+    text-align: center;
+    height: 100%;
+    color: white;
+    user-select: none;
+}
+
+div {
+    filter: drop-shadow(0 0 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+input, select {
+    color: #ffffff;
+    background-color: var(--height1);
+    border: 0;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+/* changes calendar icon of date selection to white */
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.page-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 75px 0 0;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.x-close::after {
+    content: 'x';
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: #838383;
+    color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.x-close:hover::after {
+    font-size: 25px;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Scroll Bar Formatting
+   ========================================================================== */
+/* width */
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--height1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--height3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--height4);
+}

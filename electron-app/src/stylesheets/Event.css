@@ -1,0 +1,66 @@
+.event-box {
+    margin: 10px;
+    width: 300px;
+    background-color: var(--height4);
+    border-radius: 10px;
+    overflow-x: hidden;
+    animation: popup 1s;
+}
+
+.event_info {
+    margin: 3px;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+}
+
+.event_name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--secondary-bright);
+}
+
+.event_description {
+    text-align: center;
+    font-size: 14px;
+}
+.event_location {
+    font-weight: bold;
+    color: #ffacac;
+}
+.event_date {
+    font-weight: bold;
+    color: #b4ffb4;
+}
+.event_host {
+    font-weight: bold;
+    color: #ffdfa4;
+}
+.event_cap {
+    font-weight: bold;
+    color: #ff88ff;
+}
+.event_access {
+    font-weight: bold;
+    color: #7790ff;
+}
+.event_numrsvps {
+    font-weight: bold;
+    color: #a777ff;
+}
+.event_attending {
+    font-weight: bold;
+    color: #51ff00;
+}
+
+.event_edit-btn {
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    font-family: var(--selector-font);
+    font-size: 10px;
+    color: #BDC7E6;
+    background-color: transparent;
+}

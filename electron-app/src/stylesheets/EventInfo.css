@@ -1,0 +1,77 @@
+.eventinfo-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.eventinfo-box {
+    max-width: 45vw;
+    padding: 10px;
+    background-color: var(--height4);
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    animation: popup 0.25s ease-out;
+}
+.eventinfo-box_map {
+    max-width: 90vw;
+    width: 70%;
+    height: 90%;
+}
+
+.input__group {
+    font-size: 16px;
+}
+
+.going {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #018901;
+}
+.maybe {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #D6A800;
+}
+.notgoing {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #BF0000;
+}
+.rsvp-name {
+    margin: 1px;
+    padding: 0px;
+    color: #dddddd;
+}
+
+.eventedit_submit-btn {
+    background-color: green;
+}
+.eventedit_edit-btn {
+    background-color: goldenrod;
+}
+.eventedit_delete-btn {
+    background-color: darkred;
+}
+
+.mapedit-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--height4);
+}

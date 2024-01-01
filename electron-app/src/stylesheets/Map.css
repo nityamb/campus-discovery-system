@@ -1,0 +1,16 @@
+.eventsmap-wrapper {
+    display: block;
+}
+.eventsmap-wrapper h1 {
+    margin: 0;
+}
+
+.map-wrapper {
+    position: relative;
+    width: 85%;
+    height: 90%;
+    margin: auto;
+    margin-top: 5px;
+    background-color: var(--height1);
+    border-radius: 10px;
+}

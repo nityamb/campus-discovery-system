@@ -1,0 +1,25 @@
+.myevents-wrapper {
+    display: block;
+}
+.myevents-wrapper h1 {
+    margin: 0;
+}
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 52%;
+    margin: auto;
+    background-color: var(--height1);
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.rsvp-category {
+    margin: 0;
+    margin-top: 5px;
+    width: 100%;
+    font-size: larger;
+    font-weight: bolder;
+}

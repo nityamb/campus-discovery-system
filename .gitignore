@@ -1,0 +1,19 @@
+electron-app/node_modules
+electron-app/build
+electron-app/.pnp
+electron-app/.pnp.js
+electron-app/.DS_Store
+electron-app/.env.local
+electron-app/.env.development.local
+electron-app/.env.test.local
+electron-app/.env.production.local
+electron-app/npm-debug.log*
+electron-app/yarn-debug.log*
+electron-app/yarn-error.log*
+electron-app/NOTES.txt
+
+#backend storage
+electron-app/express-backend/storage
+
+#INTELLIJ
+.idea/
